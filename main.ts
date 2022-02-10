@@ -1,18 +1,52 @@
 let mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
+    ..................................................
+    ..................................................
+    .......................22222222222222222..........
+    ..................22222222222222222222222222......
+    ..............22222222222222222222222222222222....
+    ............2222222222222222222222222222222222222.
+    .........22222222222222222222222222222222222222222
+    ........222222222222222222dddddddddd22222222222222
+    .......2222222222222222ddddddddddddddddd2222222222
+    ......22222222222222222ddddddddddddddddddd22222222
+    .....222222222222222222dddddddddddddddddddddd22222
+    .....222222222222222222dddddddddddddddddddddd22222
+    ...22222222222222222222dddddddddddddddddddddd22222
+    ...22222222222222222dddddddddddddddddddddddddd2222
+    ..222222222222222277777ddddddddddddddddddddddd2222
+    ..222222222222222d77777dddd333ddd77777dddddd222222
+    ..2222222222222ddd77777dddd333ddd77777dddddd222222
+    ..222222222222dddd77777dddd333ddd77777dddddd222222
+    ..2222222222dddddd77777dddd333ddd77777dddddd222222
+    ..222222222dddddddddddddddd333ddd77777dddddd222222
+    ..222222222dddddddddddddddd333dddddddddddddd222222
+    ..2222222222ddddddddddddddd3333ddddddddddddd222222
+    ..2222222222ddddddddddddddd3333333dddddddddd222222
+    ...222222222dddddddd3333dddd33333333333333dd222222
+    ...2222222222ddddddd3333333dd3333333333333dd222222
+    ...2222222222ddddddd333333333ddd3333333333dd222222
+    ...2222222222dddddddd3333333333ddddddd3333d222222.
+    ....222222222dddd333ddddd33333333ddd333333d222222.
+    .....22222222dddd3333dddddd33333333333333dd222222.
+    .....22222222dddd3333ddddddd3333333333333dd222222.
+    ......2222222dddd33333dddddddd33333333dddd222222..
+    ......2222222ddddd33333dddddddddddddddddd.222222..
+    ......2222222.dddd3333333dddddddddd3333d..222222..
+    .......222222..dddd33333333dddddddd3333d..2222222.
+    .......222222....ddd33333333333ddd33333d..2222222.
+    .......222222.....dddd3333333333333333dd..2222222.
+    .......222222.....ddddddd3333333333333dd..22222222
+    ......2222222.....ddddddddddd33333333dd...22222222
+    .....22222222......dddddddddddddddddddd...222222ff
+    ....222222222......ddddddddddddddddddd....222222ff
+    ...222222222........dddddddddddddddddd....222222ff
+    .22222222222.........ddddddddddddddddd....222222ff
+    fff22222222..........ddddddddddddddddd....222222ff
+    fff2222222...........ddddddddddddddddd....22222fff
+    ffff22222............dddddddddddddddddd....2222fff
+    ffff222.............ddddddddddddddddddddd...22ffff
+    fffff2.............dddddddddddddddddddddddd..2ffff
+    2fffff.............dddddddddddddddddddddddd...ffff
+    2fffff.............dddddddddddddddddddddddd...fff2
+    22ffff.............dddddddddddddddddddddddd.......
     `, SpriteKind.Player)
