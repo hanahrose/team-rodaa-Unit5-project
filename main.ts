@@ -50,3 +50,4 @@ let mySprite = sprites.create(img`
     2fffff.............dddddddddddddddddddddddd...fff2
     22ffff.............dddddddddddddddddddddddd.......
     `, SpriteKind.Player)
+music.baDing.play()
